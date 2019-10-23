@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29411.108
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vido", "Vido\Vido.csproj", "{131A49D3-E72A-44B5-B68F-B2D90A59E76E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{131A49D3-E72A-44B5-B68F-B2D90A59E76E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{131A49D3-E72A-44B5-B68F-B2D90A59E76E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{131A49D3-E72A-44B5-B68F-B2D90A59E76E}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{131A49D3-E72A-44B5-B68F-B2D90A59E76E}.Debug|ARM.Build.0 = Debug|Any CPU
+		{131A49D3-E72A-44B5-B68F-B2D90A59E76E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{131A49D3-E72A-44B5-B68F-B2D90A59E76E}.Debug|x64.Build.0 = Debug|Any CPU
+		{131A49D3-E72A-44B5-B68F-B2D90A59E76E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{131A49D3-E72A-44B5-B68F-B2D90A59E76E}.Debug|x86.Build.0 = Debug|Any CPU
+		{131A49D3-E72A-44B5-B68F-B2D90A59E76E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{131A49D3-E72A-44B5-B68F-B2D90A59E76E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{131A49D3-E72A-44B5-B68F-B2D90A59E76E}.Release|ARM.ActiveCfg = Release|Any CPU
+		{131A49D3-E72A-44B5-B68F-B2D90A59E76E}.Release|ARM.Build.0 = Release|Any CPU
+		{131A49D3-E72A-44B5-B68F-B2D90A59E76E}.Release|x64.ActiveCfg = Release|Any CPU
+		{131A49D3-E72A-44B5-B68F-B2D90A59E76E}.Release|x64.Build.0 = Release|Any CPU
+		{131A49D3-E72A-44B5-B68F-B2D90A59E76E}.Release|x86.ActiveCfg = Release|Any CPU
+		{131A49D3-E72A-44B5-B68F-B2D90A59E76E}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		VisualSVNWorkingCopyRoot = .
+		SolutionGuid = {EA0A1313-E47F-432A-B125-5BA651C7DD65}
+	EndGlobalSection
+EndGlobal

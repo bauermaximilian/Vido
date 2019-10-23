@@ -1,0 +1,66 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Vido.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="AnimationSpeed" Type="Vido.AnimationSpeed" Scope="User">
+      <Value Profile="(Default)">Fast</Value>
+    </Setting>
+    <Setting Name="KeyBinding_GoThroughZoomModes" Type="Vido.KeyBinding" Scope="User">
+      <Value Profile="(Default)">ShiftKey</Value>
+    </Setting>
+    <Setting Name="KeyBinding_ToggleFullscreen" Type="Vido.KeyBinding" Scope="User">
+      <Value Profile="(Default)">Return</Value>
+    </Setting>
+    <Setting Name="KeyBinding_OpenSettings" Type="Vido.KeyBinding" Scope="User">
+      <Value Profile="(Default)">F1</Value>
+    </Setting>
+    <Setting Name="KeyBinding_LeaveFullscreen" Type="Vido.KeyBinding" Scope="User">
+      <Value Profile="(Default)">Escape</Value>
+    </Setting>
+    <Setting Name="KeyBinding_ZoomIn" Type="Vido.KeyBinding" Scope="User">
+      <Value Profile="(Default)">Control+Up</Value>
+    </Setting>
+    <Setting Name="KeyBinding_ZoomOut" Type="Vido.KeyBinding" Scope="User">
+      <Value Profile="(Default)">Control+Down</Value>
+    </Setting>
+    <Setting Name="KeyBinding_Left" Type="Vido.KeyBinding" Scope="User">
+      <Value Profile="(Default)">Left</Value>
+    </Setting>
+    <Setting Name="KeyBinding_Up" Type="Vido.KeyBinding" Scope="User">
+      <Value Profile="(Default)">Up</Value>
+    </Setting>
+    <Setting Name="KeyBinding_Right" Type="Vido.KeyBinding" Scope="User">
+      <Value Profile="(Default)">Right</Value>
+    </Setting>
+    <Setting Name="KeyBinding_Down" Type="Vido.KeyBinding" Scope="User">
+      <Value Profile="(Default)">Down</Value>
+    </Setting>
+    <Setting Name="Color_ImageArea" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">28, 28, 28</Value>
+    </Setting>
+    <Setting Name="Color_ControlBar" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">40, 40, 40</Value>
+    </Setting>
+    <Setting Name="CustomImagePath_ZoomButton" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="CustomImagePath_PreviousButton" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="CustomImagePath_FullscreenButton" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="CustomImagePath_NextButton" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="CustomImagePath_SettingsButton" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="AutoZoomImageToTopLeft" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="ShowTooltips" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
