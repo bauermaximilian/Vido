@@ -23,14 +23,6 @@ namespace Vido
         /// </summary>
         private const double DefaultFPS = 15;
 
-        private static readonly AnimatedImage emptyImage;
-
-        /// <summary>
-        /// Gets an empty <see cref="AnimatedImage"/> instance, which consists
-        /// of a 1x1 fully transparent bitmap.
-        /// </summary>
-        public static AnimatedImage Empty => emptyImage;
-
         /// <summary>
         /// Gets or sets a boolean which defines whether the animation
         /// should be looped indefinitely until it is stopped or paused.
@@ -77,11 +69,15 @@ namespace Vido
 
         private readonly FrameDimension frameDimension;
 
-        static AnimatedImage()
+        /// <summary>
+        /// Creates an empty <see cref="AnimatedImage"/> instance, which
+        /// consists of a 1x1 fully transparent bitmap.
+        /// </summary>
+        public static AnimatedImage CreateEmpty()
         {
             Bitmap emptyBitmap = new Bitmap(1, 1);
             emptyBitmap.SetPixel(0, 0, Color.Transparent);
-            emptyImage = new AnimatedImage(emptyBitmap);
+            return new AnimatedImage(emptyBitmap);
         }
 
         /// <summary>

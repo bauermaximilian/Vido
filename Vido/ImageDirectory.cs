@@ -267,6 +267,9 @@ namespace Vido
                     {
                         image = fileImporter(
                             sortedFileList.Values[currentFileIndex]);
+                        if (image.Width < 1 || image.Height < 1)
+                            throw new NotSupportedException("The specified " +
+                                "image is empty or not supported.");
                         error = null;
                         return true;
                     }

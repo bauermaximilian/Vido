@@ -231,7 +231,7 @@ namespace Vido
         /// </summary>
         public ImageViewer()
         {
-            mainImage = AnimatedImage.Empty;
+            mainImage = AnimatedImage.CreateEmpty();
 
             DoubleBuffered = true;
 
@@ -263,7 +263,7 @@ namespace Vido
                     "the image can be changed again!");
 
             if (image != null) nextImage = new AnimatedImage(image);
-            else nextImage = AnimatedImage.Empty;
+            else nextImage = AnimatedImage.CreateEmpty();
 
             imageTransitionProgressMs = double.Epsilon;
         }
@@ -305,11 +305,11 @@ namespace Vido
                     if (success && image != null)
                         nextImage = new AnimatedImage(image);
                     else
-                        nextImage = AnimatedImage.Empty;
+                        nextImage = AnimatedImage.CreateEmpty();
                 }
                 catch
                 {
-                    nextImage = AnimatedImage.Empty;
+                    nextImage = AnimatedImage.CreateEmpty();
                 }
             })
             {
