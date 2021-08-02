@@ -1,5 +1,5 @@
 ﻿Vido Image Viewer
-Copyright (C) 2019, Maximilian Bauer (contact@lengo.cc)
+Copyright (C) 2021, Maximilian Bauer (contact@lengo.cc)
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
